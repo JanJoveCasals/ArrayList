@@ -1,4 +1,4 @@
-import java.lang.runtime.SwitchBootstraps;
+
 import java.util.Scanner;
 import java.util.ArrayList;
 
@@ -8,7 +8,6 @@ public class ArrayList_1 {
         float nota = 0.0f;
         int editar;
         ArrayList <Float> notesAlumnes = new ArrayList<>();
-        //Control d'errors
         System.out.println("(1): Afegir nota, (2): Consulta nota, (3): Eliminar nota, (4): Modificar nota, (5): Sortir");
         int usuari = input.nextInt();
         while (usuari != 5) {
